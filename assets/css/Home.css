@@ -60,7 +60,13 @@ body{
     background-color: black;
     color: white;
 }
-.chart-wrap {
+#image>div{
+    border-radius: 10px;
+    position: absolute;
+    left: 180px;
+    top: 230px;
+}
+/*.chart-wrap {
     margin-left: 50px;
     font-family: sans-serif;
     height: 650px;
@@ -204,16 +210,17 @@ body{
 
 .chart-wrap .bar:nth-child(6){
     background-color: #D9D9D9;
-}
+}*/
 
 .count_details{
     position: absolute;
     right: 4%;
-    top: 23%;
+    top: 20%;
 }
 
 .count_details>div{
-    background-color: #C77DFF;
+    background-color: black;
+    color: white;
     width: 280px;
     height: 120px;
     border-radius: 10px;
@@ -222,7 +229,9 @@ body{
 }
 
 .count_details>div>img{
-    width: 60px;
+    overflow: hidden;
+    background-color: white;
+    width: 50px;
     position: absolute;
     left: 15%;
     top: 0;
